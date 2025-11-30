@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrition Hub | Meal Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan a week of balanced, budget-friendly meals that fit a busy student schedule.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>Nutrition Hub</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meal-planner.html">Meal Planner</a></li>
+                <li><a href="healthy-recipes.html">Healthy Recipes</a></li>
+                <li><a href="#">Nutrition Tips</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="box">
+                <h2>Weekly Meal Planner</h2>
+                <p>
+                    Use this simple planner as a starting point for your week. The goal is not perfection,
+                    it’s to have a loose plan so you’re not stuck eating vending machine food at 11 pm!
+                </p>
+            </section>
+
+            <section class="box">
+                <h3>Sample Day on a Budget</h3>
+                <p>Here’s a sample day of affordable, balanced meals that work with a busy schedule.</p>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Meal</th>
+                                <th>Example</th>
+                                <th>Approx. Prep Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Breakfast</td>
+                                <td>Overnight oats with frozen berries and peanut butter</td>
+                                <td>5 minutes (night before)</td>
+                            </tr>
+                            <tr>
+                                <td>Lunch</td>
+                                <td>Brown rice, black beans, salsa, shredded cheese, frozen veggies</td>
+                                <td>10–15 minutes</td>
+                            </tr>
+                            <tr>
+                                <td>Dinner</td>
+                                <td>Whole-wheat pasta, jarred tomato sauce, frozen spinach, chicken strips</td>
+                                <td>15–20 minutes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="note">
+                    Tip: Choose 2–3 breakfast ideas and 3–4 main meals to repeat through the week to save
+                    money and time.
+                </p>
+            </section>
+
+            <section class="box">
+                <h3>Create Your Own Plan</h3>
+                <p>
+                    Fill out this quick form to sketch out your own plan.
+                </p>
+
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="name" placeholder="First name">
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="name@example.com">
+
+                    <label for="goal">Main nutrition goal this week</label>
+                    <select id="goal" name="goal">
+                        <option value="">-- Please choose one --</option>
+                        <option value="more-vegetables">Eat more vegetables</option>
+                        <option value="more-protein">Add more protein</option>
+                        <option value="less-takeout">Cut back on takeout</option>
+                        <option value="balanced-snacks">Have more balanced snacks</option>
+                    </select>
+
+                    <label for="budget">Approximate weekly food budget ($)</label>
+                    <input id="budget" type="number" name="budget" min="0" step="1">
+
+                    <label for="notes">Any schedule notes (late classes, work shifts, etc.)</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Example: late night shift on Wednesday, long day on Tuesday..."></textarea>
+
+                    <button type="submit">Save My Plan</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <a href="mailto:youremail@example.com">Email the Nutrition Hub</a>
+            <a href="https://www.myplate.gov" target="_blank" rel="noopener">Visit MyPlate.gov</a>
+            <a href="#">Privacy</a>
+        </footer>
+
+    </div>
+</body>
+</html>
