@@ -358,6 +358,10 @@ button[type="submit"]:hover {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
 }
 
+.video-box video {
+    display: block;
+    margin: 1em auto;
+}
 
 .note {
     font-size: 0.9rem;
